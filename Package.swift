@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "AFNetworking",
-            path: "Sources/AFNetworking/AFNetworking",
+            path: "AFNetworking/AFNetworking",
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("."),
